@@ -1,0 +1,45 @@
+.dark {
+  background-color: #222;
+  color: rgba(156, 156, 156);
+  .chartGrid {
+    stroke: rgb(145, 125, 125);
+  }
+  .table {
+    background-color: #111;
+    .tableCell {
+      color: gray;
+      background-color: #222;
+    }
+  }
+  .sidebar {
+    background-color: #222;
+
+    .top {
+      .logo {
+        color: gray;
+      }
+    }
+    ul {
+      li {
+        &:hover {
+          background-color: #362f2f;
+        }
+        .icon {
+          color: #fff;
+        }
+      }
+    }
+  }
+  .dataTable {
+    .dataGrid {
+      color: gray;
+      border: none;
+      .viewButton,
+      .deleteButton {
+        color: rgb(46, 43, 43);
+        border: none;
+        background-color: #ccc7c7;
+      }
+    }
+  }
+}
